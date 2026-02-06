@@ -89,5 +89,7 @@ Exemplo de saída esperada (visualizado em hex editor):
 ## 🛠 Compilação e Execução
 
 nasm -f elf64 fib.asm -o fib.o
+
 ld fib.o -o fib.x
+
 ./fib.x
