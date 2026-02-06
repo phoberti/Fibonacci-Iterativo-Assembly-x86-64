@@ -2,7 +2,7 @@
 
 Implementação em Assembly (sintaxe Intel x86-64) para cálculo do n-ésimo número de Fibonacci de forma **iterativa**, conforme requisitos acadêmicos da atividade.
 
-## 📚 Contexto da Atividade
+##  Contexto da Atividade
 
 A proposta consiste em:
 
@@ -20,7 +20,7 @@ fib(n).bin
 Contendo o resultado armazenado diretamente em formato binário (8 bytes).
 
 
-## ⚙️ Funcionamento do Programa
+##  Funcionamento do Programa
 
 ### 🔹 Entrada
 
@@ -86,7 +86,7 @@ Exemplo de saída esperada (visualizado em hex editor):
 0x0000000000006FF1
 
 
-## 🛠 Compilação e Execução
+##  Compilação e Execução
 
 nasm -f elf64 fib.asm -o fib.o
 
